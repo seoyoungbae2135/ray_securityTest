@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>회원</title>
+</head>
+<!--20240222-3-->
+<body>
+    <h2>회원 페이지</h2>
+    <div>
+        <p>
+            <a th:href="@{/login}">로그인</a>
+            <a th:href="@{/logout}">로그아웃</a>
+        </p>
+        <p>
+            <a th:href="@{/guest}">게스트 입장</a>
+            <a th:href="@{/member}">회원 입장</a>
+            <a th:href="@{/admin}">관리자 입장</a>
+        </p>
+    </div>
+
+</body>
+</html>
